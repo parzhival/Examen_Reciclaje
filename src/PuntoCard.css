@@ -1,0 +1,39 @@
+/* Estilos en tonos oscuros y alto contraste para PuntoCard */
+.punto-card {
+  background-color: #1e293b; /* Azul pizarra oscuro para el fondo de la tarjeta */
+  border: 1px solid #334155; /* Borde sutil para delimitar la tarjeta */
+  border-left: 5px solid #10b981; /* Borde izquierdo verde esmeralda vibrante */
+  border-radius: 8px;
+  padding: 18px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+/* Efecto visual al pasar el cursor */
+.punto-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  border-color: #10b981;
+}
+
+.punto-card h3 {
+  margin-top: 0;
+  margin-bottom: 14px;
+  color: #34d399; /* Verde menta luminoso para que el título destaque de inmediato */
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 8px;
+}
+
+.punto-card p {
+  margin: 8px 0;
+  color: #f1f5f9; /* Blanco humo de altísimo contraste para el texto de los datos */
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.punto-card p strong {
+  color: #94a3b8; /* Gris azulado claro para diferenciar visualmente la etiqueta del valor */
+  font-weight: 600;
+}
